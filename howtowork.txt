@@ -1,0 +1,6 @@
+1. Download all the files.
+2. Create twitter, includes folder.
+3. Move OAuth.php and twitteroauth.php files to twitter folder.
+4. Move style.css file to includes folder.
+5. Add the needed twitter API keys in the commonclass.php file.
+6. Run the sql file in the database server for create database and irs tables.
