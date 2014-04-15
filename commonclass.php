@@ -14,10 +14,10 @@ class twitterclass{
 	public $screenName ="";
 	function __construct($scnName){
 		
-		$consumerkey = 'Awf4UszZsT77TeevMFDS9dAYj';
-		$consumersecret = 'jNUZkUSDtOUTk0MUB0OqfXjImlpMJDRGFyyh6buvxhgrN2LnN2';
-		$accesstoken = '113091622-Txbnd0w1wNG3q8pp4cB5VUavedRP5fNjOQQRnfnM';
-		$accesstokensecret = 'FlE55e2FyXOjs4tE00CpQMtwWvbE9wTGMAHQ1EcDDTiLE';
+		$consumerkey = 'YOUR_CONSUMER_KEY';
+		$consumersecret = 'YOUR_CONSUMER_SECRET_KEY';
+		$accesstoken = 'YOUR_ACCESS_TOKEN';
+		$accesstokensecret = 'TOKEN_SECRET';
 		$this->screenName =$scnName;
 		$twitter = new TwitterOAuth($consumerkey, $consumersecret,$accesstoken, $accesstokensecret);
 		$tweets =$twitter->get('https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name='. $this->screenName.'');
