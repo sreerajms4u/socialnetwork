@@ -1,0 +1,25 @@
+#tablecontent tr.header{
+	background: none repeat scroll 0 0 #ADD8E6;
+    color: #FF0000;
+    font-weight: bold;
+}
+#tablecontent{
+	width:100%;
+}
+#tablecontent tr{
+	height:80px;
+	border: 1px solid #ccc;
+}
+#tableconten img {
+	padding-left:10px;
+	float:left;
+}
+.align_right{
+	
+}
+.lightrose{
+	background: none repeat scroll 0 0 lightrose;
+}
+.lightgreen{
+	background: none repeat scroll 0 0 lightgreen;
+}
